@@ -3,7 +3,7 @@
 A web-based text translation application built with Streamlit and powered by Google Translate, designed to facilitate seamless multilingual communication. Translate text across numerous languages with an intuitive and responsive interface.
 
 ## 🚀 Demo
-Try the live application here: [Text Translator on Hugging Face Spaces](https://huggingface.co/spaces/yahyaiuu7/code-alpha-text-translator)
+Try the live application here: [press here](https://yahyaiuu7-code-alpha-text-translator.hf.space/)
 
 ## 📑 Table of Contents
 - [Features](#features)
