@@ -38,7 +38,7 @@ with col3:
     target_lang = st.selectbox("Select Target Language:", options=list(target_languages.keys()),
                               format_func=lambda x: target_languages[x].title(),
                               index=list(target_languages.keys()).index('en') if 'en' in target_languages else 0)
-    # تحديث النص المترجم مباشرة من الحالة
+    
     translated_text = st.session_state.translated_text
     translated_text_area = st.text_area("Translated Text:", value=translated_text, height=100, disabled=True)
 
@@ -48,7 +48,7 @@ if translate_button and source_text.strip():
         with st.spinner('Translating...'):
             result = translator.translate(source_text, src=source_lang if source_lang != 'auto' else 'auto', dest=target_lang)
             st.session_state.translated_text = result.text
-            st.experimental_rerun()  # إعادة تشغيل فوري لتحديث الواجهة
+            st.experimental_rerun()  
     except Exception as e:
         st.error(f"Translation error: {str(e)}. Check your internet connection and try again.")
 elif translate_button and not source_text.strip():
