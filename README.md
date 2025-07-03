@@ -48,7 +48,7 @@ To run the Text Translator locally, follow these steps:
    streamlit run app.py
    ```
 
-   The app will launch in your default browser at `http://localhost:8501`.
+   The app will launch in your default browser  at at `http://localhost:8501`.
 
 ## 📖 Usage
 1. Access the live demo at [Hugging Face Spaces](https://huggingface.co/spaces/yahyaiuu7/code-alpha-text-translator) or run locally.
